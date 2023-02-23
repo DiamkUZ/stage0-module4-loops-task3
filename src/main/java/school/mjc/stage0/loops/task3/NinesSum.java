@@ -11,7 +11,6 @@ public class NinesSum {
         int t9 =9;
         int sum = t9;
         for (int counter =1; counter < lengthOfLastNumber; counter++) {
-            System.out.println(sum);
             t9 = (9*(int)Math.pow(10,counter))+t9;
             sum = sum + t9;
         }
